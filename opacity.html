@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        .box{
+            height:300px;
+            width:300px;
+            border:2px solid black;
+            font-size: 18px;
+            text-align: justify;
+            text-shadow: 2px 2px 8px yellow;
+            color:red;
+            /*overflow: hidden;
+            overflow-Y: scroll;
+            overflow-x: scroll;*/
+            overflow: auto;
+            margin:30px;
+        }
+        img{
+            height:100%;
+            width:100%;
+            background-color: black;
+            transition: all 0.8s;
+        }
+        img:hover{
+            opacity:0.5;
+        }
+        p{
+            width:500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+       <img src="image9.png" alt="">
+       </div>
+</body>
+</html>
